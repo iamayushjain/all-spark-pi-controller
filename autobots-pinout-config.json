@@ -1,0 +1,49 @@
+{
+  "pinout": {
+    "en-a": 26,
+    "in-1": 20,
+    "in-2": 21,
+    "in-3": 12,
+    "in-4": 16,
+    "en-b": 25
+  },
+  "sides-port": {
+    "side-a": {
+      "en": "en-a",
+      "in-positive": "in-1",
+      "in-negative": "in-2"
+    },
+    "side-b": {
+      "en": "en-b",
+      "in-positive": "in-3",
+      "in-negative": "in-4"
+    }
+  },
+  "wheels": {
+    "odd": "side-a",
+    "even": "side-b"
+  },
+  "frequency": {
+    "l": 25,
+    "m": 50,
+    "h": 75
+  },
+  "key-mapping": {
+    "f": {
+      "name": "forward",
+      "type": "frequency"
+    },
+    "b": {
+      "name": "backward",
+      "type": "frequency"
+    },
+    "l": {
+      "name": "left",
+      "type": "rotate"
+    },
+    "r": {
+      "name": "right",
+      "type": "rotate"
+    }
+  }
+}
